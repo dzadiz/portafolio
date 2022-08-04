@@ -7,6 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="estilos.css">
 	<link rel="icon" href="imagenes/4x4.ico">
 	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="Bootstrap.css">
+
 </head>
 <body>
 	<header>
@@ -24,7 +26,12 @@
 		</nav>
 	</header>
 	<section>
-
+		<form class="form_contacto">
+			<label for="form_contacto__input">Para responderte dínos...</label>
+			<input type="text" name="nombre" class="form_contacto__input" id="form_contacto__input" placeholder="...aquí tu nombre">
+			<input type="email" name="email" class="form_contacto__input" placeholder="... aquí tu casilla@email.com" required>
+			<textarea class="form_contacto__textarea" placeholder="... aquí tu inquietud"></textarea>
+		</form>
 	</section>
 	<aside class="laterales">
 		<h3 class="laterales__titular">Otros artículos [aside]</h3>
